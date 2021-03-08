@@ -1,0 +1,38 @@
+{
+    "name": "marshmallow/nova-alertable",
+    "description": "Add alerts and modals to your Nova installation. After creating or updating any resource. Or after running an action. Whatever you need!",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "homepage": "https://github.com/marshmallow-packages/nova-alertable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stef van Esch",
+            "email": "stef@marshmallow.dev",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "pusher/pusher-php-server": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Marshmallow\\Alertable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marshmallow\\Alertable\\AlertableServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
