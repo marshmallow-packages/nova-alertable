@@ -61,13 +61,20 @@ We've run into issues before when `useTLS` is active in the `broadcasting.php` c
 
 Also, make sure the `BroadcastServiceProvider::class` is uncommented in `config/app.php`.
 
+Set your `BROADCAST_DRIVER` to `pusher` in your `.env` file.
+```env
+BROADCAST_DRIVER=pusher
+```
+
 # Usage
+```php
 use Marshmallow\Alertable\Events\AlertNotificationEvent;
 
 event(new AlertNotificationEvent(
     request()->user(),
     $alert_message = 'This Marshmallow Package is awesome!'
 ));
+```
 
 ## Changelog
 

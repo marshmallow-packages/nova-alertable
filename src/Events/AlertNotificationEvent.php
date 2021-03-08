@@ -2,7 +2,7 @@
 
 namespace Marshmallow\Alertable\Events;
 
-use App\Models\User;
+use Illuminate\Foundation\Auth\User;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Foundation\Events\Dispatchable;
