@@ -20,7 +20,7 @@
         "pusher-js": "^7.0.3"
     },
     "dependencies": {
-        "animated-scroll-to": "^1.2.2",
+        "animated-scroll-to": "^2.2.0",
         "vue": "^2.5.0"
     }
 }
