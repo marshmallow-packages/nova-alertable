@@ -15,7 +15,7 @@
         "eslint-config-prettier": "^6.15.0",
         "eslint-plugin-vue": "^4.4.0",
         "laravel-echo": "^1.10.0",
-        "laravel-mix": "^1.0",
+        "laravel-mix": "^6.0",
         "prettier": "^1.14.0",
         "pusher-js": "^7.0.3"
     },
