@@ -11,16 +11,16 @@
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
-        "eslint": "^4.19.1",
+        "eslint": "^7.23.0",
         "eslint-config-prettier": "^6.15.0",
-        "eslint-plugin-vue": "^4.4.0",
+        "eslint-plugin-vue": "^7.8.0",
         "laravel-echo": "^1.10.0",
         "laravel-mix": "^6.0",
         "prettier": "^2.2.1",
         "pusher-js": "^7.0.3"
     },
     "dependencies": {
-        "animated-scroll-to": "^1.2.2",
+        "animated-scroll-to": "^2.2.0",
         "vue": "^2.5.0"
     }
 }
