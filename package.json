@@ -21,6 +21,6 @@
     },
     "dependencies": {
         "animated-scroll-to": "^2.2.0",
-        "vue": "^2.5.0"
+        "vue": "^3.2.40"
     }
 }
